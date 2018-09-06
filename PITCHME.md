@@ -1,4 +1,5 @@
 @size[2.5em](Test automation, TDD and all the things that worked for us)
+@size[.3em]
 ```
 Now I'm a pretty lazy person and am prepared to work quite hard in order to avoid work.
 Martin Fowler
