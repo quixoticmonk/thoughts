@@ -41,6 +41,10 @@
 - Make it work and do what you need to do - report, screenshots and all the boring stuff.
 - Take another story, Add another script ( 2 scripts now..Yaay)
 - REFACTOR !!!
+  -- Reduce execution time
+  -- Run on a GRID , don't kill your VDI
+  -- Run as many tests as possible
+  -- Identify what cannot be automated
 ---
 ### What Helped
 
@@ -48,6 +52,7 @@
 - Co-located team and pair programming
 - Defining our app's html structure
   -- tab, panel, field, fieldValue
+  -- Plug and play
 
 ---
 ### Lifecycle of a Jira card/story
@@ -61,3 +66,9 @@
 - Move to Pending Test
 - Re-run the automation tests and add any new ECIs or scenarios you noticed
 - Run the regression scripts for the page, from the previous two sprints..
+
+---
+### What we learnt
+- There may be better frameworks for test automation. You need to find or write what works for your team.
+- Expanded to 3 teams now.
+- Challenges on how others approach a problem statement
