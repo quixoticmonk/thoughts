@@ -31,9 +31,9 @@
 - Where is my ECI ?
 - We love a sequence to things..
 '''
-  Given I am here
-  When I do this
-  Then I should see this
+Given I am here
+When I do this
+Then I should see this
 '''
 ---
 ### Approach we took
