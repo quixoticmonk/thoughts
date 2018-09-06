@@ -1,28 +1,31 @@
-@size[2.5em](Test automation, TDD and all things that worked for us)
+@size[2.5em](Test automation, TDD and all the things that worked for us)
 
 
 ---
 
 ### Team Background
 
-- Fair Client space experience
 - A fair mix of development experience(Low->Really Sound)
 - 2 folks who have worked on Gherkin or BDD
 - 1 who had used test automation tools
----
-### Toolset
-
-- Gherkin for acceptance criteria
-- Selenium WebDriver for manipulating the DOM
-- cucumber-jvm to sew the above two pieces
-- Java, Apache Maven as build tool
+- QA turned Product Owner
+- Scrum Master who kept us away from the noise
+- Fair client space experience
 
 ---
 ### Why test automation
 
 - Longer Feedback loop
-- My version of Truth, Your version of Truth -> One Truth
-- Tests in excel which no one except the testers/BA looked at
+- Tests in excel which no one except the testers/Prod owner looked at
+- Error prone manual test execution or results documentation
+
+---
+### Toolset
+
+- Gherkin for writing the acceptance criteria
+- Selenium WebDriver for manipulating the DOM
+- cucumber-jvm to sew the above two pieces
+- Java, Apache Maven as build tool
 
 ---
 ### Why Gherkin
@@ -39,35 +42,36 @@ Then I should see this
 ### Approach we took
 
 - Take one piece of functionality and create an automation script
-- Make it work and do what you need to do - report, screenshots and all the boring stuff.
+- Make it work
 - Take another story, Add another script ( 2 scripts now..Yaay)
 - **REFACTOR !!!**
   - Reduce execution time
   - Run on a GRID , don't kill your VDI
-  - Run as many tests as possible
+  - Run as many tests as possible with as many types of data
   - Identify what cannot be automated
 ---
 ### What Helped
 
 - David, Joey, Ryan telling us one Friday that they are taking away our monitors and docking stations.
 - Co-located team and pair programming
-- Defining our app's html structure
-  -- tab, panel, field, fieldValue
-  -- Plug and play
+- Defining our app's html structure and adhering to it
+- Use the label or text in conjuction with xpath as the locator than classes or id
+  - unless you have similar labels ( which we had..)
 
 ---
 ### Lifecycle of a Jira card/story
-- [x] Requirements groomed with Acceptance criteria in Gherkin with TEST DATA which works
-- [x] Write the jUnits and run them and see them fail.
-- [x] Launch the app server and run the acceptance criteria written in gherkin and see it fail.
-- [x] Write code to pass the jUnits and the UI Acceptance criteria
-- [x] Re-run all tests.
-- [x] Commit the development code to the dev branch and automation code into automation branch for the same story.
-- [x] Submit a PR
-- [x] Move to Pending Test
-- [x] Re-run the automation tests and add any new ECIs or scenarios you noticed
-- [x] Run the regression scripts for the page, from the previous two sprints..
-
+@ul
+- Requirements groomed with Acceptance criteria in Gherkin with TEST DATA which works
+- Write the jUnits and run them and see them fail.
+- Launch the app server and run the acceptance criteria written in gherkin and see it fail.
+- Write code to pass the jUnits and the UI Acceptance criteria
+- Re-run all tests.
+- Commit the development code to the dev branch and automation code into automation branch for the same story.
+- Submit the PR
+- Move to Pending Test
+- Re-run the automation tests and add any new ECIs or scenarios you noticed
+- Run the regression scripts for the page, from the previous two sprints..
+@ulend
 ---
 ### What we learnt
 - There may be better frameworks for test automation. You need to find or write what works for your team.
