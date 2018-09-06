@@ -1,4 +1,4 @@
-# Test automation, TDD and all things that worked for us
+@size[2.5em](Test automation, TDD and all things that worked for us)
 
 
 ---
@@ -30,11 +30,11 @@
 - My version of Truth, Your version of Truth
 - Where is my ECI ?
 - We love a sequence to things..
-'''
+```
 Given I am here
 When I do this
 Then I should see this
-'''
+```
 ---
 ### Approach we took
 
