@@ -55,7 +55,7 @@ Then I should see this
 @ul
 - David, Joey, Ryan telling us one Friday that they are taking away our monitors and docking stations.
 - Co-located team and pair programming
-- Defining our app's html structure and adhering to it
+- Consensus on the UI elements structure
 - Use the label or text in conjunction with xpath as the locator than classes or id
   - unless you have similar labels ( which we had..)
 - Quicker Feedback loop
@@ -82,7 +82,10 @@ Then I should see this
 ---
 
 ### What we learnt
-- Find the toolset that work for your team
+- Find the toolset that works for your team
 - Automated test execution is a way to augment testing.
 - Exploratory Testing  
 - Avoid Waste
+- Don't stop at automated functional test execution :
+  - Accessibility tests
+  - Performance Tests
