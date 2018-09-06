@@ -1,6 +1,8 @@
 @size[2.5em](Test automation, TDD and all the things that worked for us)
-
-
+```
+Now I'm a pretty lazy person and am prepared to work quite hard in order to avoid work.
+Martin Fowler
+```
 ---
 
 ### Team Background
@@ -26,11 +28,10 @@
 - Selenium WebDriver for manipulating the DOM
 - Cucumber-jvm to sew the above two pieces with steps written in Java
 - Apache Maven as build tool
-
+- Dockerised version of Selenium GRID
 
 ---
 ### Why Gherkin
-@ul
 - My version of Truth, Your version of Truth
 - Where is my ECI ?
 - We love a sequence to things..
@@ -39,7 +40,6 @@ Given I am here
 When I do this
 Then I should see this
 ```
-@ulend
 ---
 ### Approach we took
 @ul
@@ -60,6 +60,7 @@ Then I should see this
 - Defining our app's html structure and adhering to it
 - Use the label or text in conjuction with xpath as the locator than classes or id
   - unless you have similar labels ( which we had..)
+- Quicker Feedback loop
 @ulend
 ---
 ### Lifecycle of a Jira card/story
@@ -70,11 +71,6 @@ Then I should see this
 - Write code to pass the jUnits and the UI Acceptance criteria
 - Re-run all tests and see them pass.
 - Refactor!!
-- Commit the development code to the dev branch and automation code into automation branch for the same story.
-- Submit the PR
-- Move to Pending Test
-- Re-run the automation tests and add any new ECIs or scenarios you noticed
-- Run the regression scripts for the page, from the previous two sprints..
 @ulend
 ---
 ### Lifecycle of a Jira card/story..continued
@@ -88,6 +84,7 @@ Then I should see this
 ---
 
 ### What we learnt
-- There may be better frameworks for test automation. You need to find or write what works for your team.
-- Expanded to 3 teams now.
-- Challenges on how others approach a problem statement
+- Find the toolset that work for your team
+- Automated test execution is a way to augment testing.
+- Exploratory Testing  
+- Avoid Waste
