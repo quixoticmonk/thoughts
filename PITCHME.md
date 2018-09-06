@@ -30,21 +30,22 @@
 - My version of Truth, Your version of Truth
 - Where is my ECI ?
 - We love a sequence to things..
+'''
   Given I am here
   When I do this
   Then I should see this
-
+'''
 ---
 ### Approach we took
 
 - Take one piece of functionality and create an automation script
 - Make it work and do what you need to do - report, screenshots and all the boring stuff.
 - Take another story, Add another script ( 2 scripts now..Yaay)
-- REFACTOR !!!
-  -- Reduce execution time
-  -- Run on a GRID , don't kill your VDI
-  -- Run as many tests as possible
-  -- Identify what cannot be automated
+- **REFACTOR !!!**
+  - Reduce execution time
+  - Run on a GRID , don't kill your VDI
+  - Run as many tests as possible
+  - Identify what cannot be automated
 ---
 ### What Helped
 
@@ -56,16 +57,16 @@
 
 ---
 ### Lifecycle of a Jira card/story
-- Requirements groomed with Acceptance criteria in Gherkin with TEST DATA which works
-- Write the jUnits and run them and see them fail.
-- Launch the app server and run the acceptance criteria written in gherkin and see it fail.
-- Write code to pass the jUnits and the UI Acceptance criteria
-- Re-run all tests.
-- Commit the development code to the dev branch and automation code into automation branch for the same story.
-- Submit a PR
-- Move to Pending Test
-- Re-run the automation tests and add any new ECIs or scenarios you noticed
-- Run the regression scripts for the page, from the previous two sprints..
+- [x] Requirements groomed with Acceptance criteria in Gherkin with TEST DATA which works
+- [x] Write the jUnits and run them and see them fail.
+- [x] Launch the app server and run the acceptance criteria written in gherkin and see it fail.
+- [x] Write code to pass the jUnits and the UI Acceptance criteria
+- [x] Re-run all tests.
+- [x] Commit the development code to the dev branch and automation code into automation branch for the same story.
+- [x] Submit a PR
+- [x] Move to Pending Test
+- [x] Re-run the automation tests and add any new ECIs or scenarios you noticed
+- [x] Run the regression scripts for the page, from the previous two sprints..
 
 ---
 ### What we learnt
