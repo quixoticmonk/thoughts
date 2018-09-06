@@ -1,9 +1,6 @@
 @size[1.5em](Test automation, TDD and all the things that worked for us)
 
-@snap[south-west]
-Now I'm a pretty lazy person and am prepared to work quite hard in order to avoid work.
-Martin Fowler
-@snapend
+
 ---
 
 ### Team Background
@@ -59,7 +56,7 @@ Then I should see this
 - David, Joey, Ryan telling us one Friday that they are taking away our monitors and docking stations.
 - Co-located team and pair programming
 - Defining our app's html structure and adhering to it
-- Use the label or text in conjuction with xpath as the locator than classes or id
+- Use the label or text in conjunction with xpath as the locator than classes or id
   - unless you have similar labels ( which we had..)
 - Quicker Feedback loop
 @ulend
