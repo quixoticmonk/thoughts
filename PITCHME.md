@@ -15,9 +15,9 @@
 ---
 ### Why test automation
 @ul
-- Longer Feedback loop
 - Tests in excel which no one except the testers/Prod owner looked at
 - Error prone manual test execution or results documentation
+- Feedback loop was late
 @ulend
 ---
 ### Toolset
@@ -26,7 +26,7 @@
 - Selenium WebDriver for manipulating the DOM
 - Cucumber-jvm to sew the above two pieces with steps written in Java
 - Apache Maven as build tool
-- Dockerised version of Selenium GRID
+- Dockerised version of Selenium GRID running on a container as a service model
 
 ---
 ### Why Gherkin
@@ -41,8 +41,7 @@ Then I should see this
 ---
 ### Approach we took
 @ul
-- Take one piece of functionality and create an automation script
-- Make it work
+- Take one piece of functionality,write an automation script and make it work.
 - Take another story, Add another script ( 2 scripts now..Yaay)
 - **REFACTOR !!!**
   - Reduce execution time
@@ -65,7 +64,6 @@ Then I should see this
 @ul
 - Acceptance criteria in Gherkin with TEST DATA which works
 - Write the jUnits and run them and see them fail.
-- Launch the app server and run the acceptance criteria written in gherkin and see it fail.
 - Write code to pass the jUnits and the UI Acceptance criteria
 - Re-run all tests and see them pass.
 - Refactor!!
@@ -82,10 +80,10 @@ Then I should see this
 ---
 
 ### What we learnt
-- Find the toolset that works for your team
+- Find the toolset that works for your team. Don't get stuck on the word "Framework"
 - Automated test execution is a way to augment testing.
 - Exploratory Testing  
-- Avoid Waste
+- Eliminate Waste
 - Don't stop at automated functional test execution :
   - Accessibility tests
   - Performance Tests
