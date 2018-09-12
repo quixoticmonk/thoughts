@@ -1,5 +1,6 @@
 @size[1.5em](Test automation, TDD and all the things that worked for us)
 
+@quote["Now I'm a pretty lazy person and am prepared to work quite hard in order to avoid work." ~ Martin Fowler]
 
 ---
 
