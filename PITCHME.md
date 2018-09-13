@@ -80,6 +80,7 @@ Then I should see this
 ---
 
 ### What we learnt
+@ul
 - Find the toolset that works for your team. Don't get stuck on the word "Framework"
 - Automated test execution is a way to augment testing.
 - Exploratory Testing  
@@ -87,3 +88,4 @@ Then I should see this
 - Don't stop at automated functional test execution :
   - Accessibility tests
   - Performance Tests
+@ulend
