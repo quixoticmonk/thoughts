@@ -82,6 +82,7 @@ Then I should see this
 ### What we learnt
 @ul
 - Find the toolset that works for your team. Don't get stuck on the word "Framework"
+- API tests are faster
 - Automated test execution is a way to augment testing.
 - Exploratory Testing  
 - Eliminate Waste
