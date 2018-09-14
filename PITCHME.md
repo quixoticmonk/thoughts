@@ -96,3 +96,9 @@ Then I should see this
   - Accessibility tests
   - Performance Tests
 @ulend
+---
+
+### What's Next?
+- Virtualization of services invoked
+- Setup parallel test case execution
+- Abstraction of Selenium webdriver functions
