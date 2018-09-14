@@ -7,7 +7,7 @@
 
 - A fair mix of development experience(Low->Really Sound)
 - 2 folks who have worked on Gherkin or BDD
-- 1 who had used test automation tools
+- 2 who had used test automation tools
 - QA turned Product Owner
 - Scrum Master who kept us away from the noise
 - Fair client space experience
@@ -63,7 +63,7 @@ Then I should see this
 - Consensus on the UI elements structure
 - Use the label or text in conjunction with xpath as the locator than classes or id
   - unless you have similar labels ( which we had..)
-- Quicker Feedback loop
+
 @ulend
 ---
 ### Lifecycle of a Jira card/story
@@ -90,7 +90,7 @@ Then I should see this
 - Find the toolset that works for your team. Don't get stuck on the word "Framework"
 - API tests are faster
 - Automated test execution is a way to augment testing.
-- Exploratory Testing  
+- Integrating with Devops tools 
 - Eliminate Waste
 - Don't stop at automated functional test execution :
   - Accessibility tests
