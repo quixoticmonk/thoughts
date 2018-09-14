@@ -18,6 +18,7 @@
 - Tests in excel which no one except the testers/Prod owner looked at
 - Error prone manual test execution or results documentation
 - Feedback loop was late
+- Hand it over to anyone who can click a button.
 @ulend
 ---
 ### Toolset
@@ -38,6 +39,11 @@ Given I am here
 When I do this
 Then I should see this
 ```
+---
+### Why Selenium/Cucumber-jvm
+- Selenium vs Protractor
+- Code in the language the team knows
+
 ---
 ### Approach we took
 @ul
