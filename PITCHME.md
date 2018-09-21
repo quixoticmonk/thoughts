@@ -49,12 +49,6 @@ When I do this
 Then I should see this
 ```
 ---
-### Why Selenium/Cucumber-jvm
-
-- Selenium vs Protractor
-- Code in the language the team knows
-
----
 ### Approach we took
 @ul
 - Take one piece of functionality,write an automation script and make it work.
