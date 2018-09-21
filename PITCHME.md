@@ -3,10 +3,10 @@
 @quote[Now I'm a pretty lazy person and am prepared to work quite hard in order to avoid work.]  (Martin Fowler)
 ---
 ### The Numbers
-- 9 of 16 available SPAs.(>500 stories in 3 releases worth 1080 points )
+- 9 of 16 available SPAs(>500 stories in 3 releases worth 1080 points)
 - 5-6 daily deployments with average deployment time of 30 mins.
 - 0 prod defects, <5 UAT defects, <4 defects found outside of sprint
-- >200 automation PRs compared to our client team's number of 25.
+- more than 200 automation PRs compared to our client team's number of 25.
 - Automation script coverage : >90%, ~950 Selenium webdriver UI scripts
 - Assessed at client agile maturity level of 1 closing down on 2.
 ---
