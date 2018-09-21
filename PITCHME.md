@@ -14,10 +14,11 @@
 
 ---
 ### Why test automation
+
 @ul
 - Tests in excel which no one except the testers/Prod owner looked at
 - Error prone manual test execution or results documentation
-- Feedback loop was late
+- Slow Feedback loop
 - Hand it over to anyone who can click a button.
 @ulend
 ---
@@ -31,6 +32,7 @@
 
 ---
 ### Why Gherkin
+
 - My version of Truth, Your version of Truth
 - Where is my ECI ?
 - We love a sequence to things..
@@ -41,6 +43,7 @@ Then I should see this
 ```
 ---
 ### Why Selenium/Cucumber-jvm
+
 - Selenium vs Protractor
 - Code in the language the team knows
 
@@ -90,7 +93,7 @@ Then I should see this
 - Find the toolset that works for your team. Don't get stuck on the word "Framework"
 - API tests are faster
 - Automated test execution is a way to augment testing.
-- Integrating with Devops tools 
+- Integrating with Devops tools
 - Eliminate Waste
 - Don't stop at automated functional test execution :
   - Accessibility tests
