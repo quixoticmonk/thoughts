@@ -2,6 +2,16 @@
 ---
 @quote[Now I'm a pretty lazy person and am prepared to work quite hard in order to avoid work.]  (Martin Fowler)
 ---
+### The Numbers
+- Tabs developed : 9 of 16 available.(>500 stories in 3 releases worth 1080 points )
+- Agile maturity scale : Assessed at level 1. Team is doing all the level 2 practices and most of  level 3 ones as well.
+- 5-6 daily deployments with average deployment time of 30 mins.
+- UAT defect leakage in 3 Enterprise releases : less than 5.
+- Production defects in 3 Enterprise releases : 0
+- Defect leakage outside of sprint : <4
+- >200 automation PRs compared to our client team's number of 25.
+- Automation script coverage : >90%, ~950 Selenium webdriver UI scripts
+---
 
 ### Team Background
 
@@ -87,7 +97,6 @@ Then I should see this
 - Run the regression scripts for the page, from the previous two sprints..
 @ulend
 ---
-
 ### What we learnt
 @ul
 - Find the toolset that works for your team. Don't get stuck on the word "Framework"
