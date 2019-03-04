@@ -7,11 +7,14 @@
 ### What do you get with Sonar?
 - Issues ( Bugs/Vulnerabilities/Code Smells)
 - Measures ( Reliability/Security/Maintainability )
----
-### Sonar QualityGates/Profiles
-- Metrics on Issues
 - Code Coverage
 - Duplications 
+---
+### Sonar QualityGates/Profiles
+- User defined gates
+- user/Community defined rules on each language
+- Integrate with CI to fail or pass a build
+
  
 ---
 
