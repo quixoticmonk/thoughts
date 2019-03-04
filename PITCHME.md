@@ -1,4 +1,4 @@
-### Sonar 
+### SonarQube 
 - Community Edition
 - sonarCloud
 - Developer Edition/Enterprise Edition ...
