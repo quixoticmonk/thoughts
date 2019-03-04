@@ -2,7 +2,6 @@
 - Community Edition
 - sonarCloud
 - Developer Edition/Enterprise Edition ...
-
 ---
 
 ### Who is to Blame ?
@@ -10,7 +9,10 @@
 - sonar.scm.provider
 
 ---
+### Sonar QualityGates/Profiles
 
-### Who is to Blame ?
+---
+### Sonar marketPlace
 
-- sonar.scm.provider
+
+
