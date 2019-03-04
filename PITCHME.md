@@ -9,7 +9,7 @@
 - Measures ( Reliability/Security/Maintainability )
 - Code Coverage
 - Duplications 
-![Sonar Output](https://github.com/quixoticmonk/thoughts/blob/master/sonar_output.png)
+?image=https://github.com/quixoticmonk/thoughts/blob/master/sonar_output.png
 ---
 ### Sonar QualityGates/Profiles
 - User defined gates
