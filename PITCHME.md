@@ -19,8 +19,7 @@
 ---
 
 ### How to use ?
-- Sonar scanner on dev workstation
-- Sonar Lint on your IDE
+- Sonar scanner  or lint on dev workstation/IDE
 - Sonar scanner on CI
 - Sonar cloud for OpenSource projects
 ---
