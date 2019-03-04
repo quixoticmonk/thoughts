@@ -9,8 +9,7 @@
 - Measures ( Reliability/Security/Maintainability )
 ---
 ### Sonar QualityGates/Profiles
-- Leak period
-- BASELINE
+- Metrics on Issues
 - Code Coverage
 - Duplications 
  
