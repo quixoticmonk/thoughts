@@ -4,14 +4,14 @@
 - Developer Edition/Enterprise Edition ...
 
 ---
-### What do you get with Sonar?
+### What do you get with SonarQube?
 - Issues ( Bugs/Vulnerabilities/Code Smells)
 - Measures ( Reliability/Security/Maintainability )
 - Code Coverage
 - Duplications 
 
 ---
-### Sonar QualityGates/Profiles
+### SonarQube QualityGates/Profiles
 - User defined gates
 - user/Community defined rules on each language
 - Integrate with CI to fail or pass a build
@@ -31,6 +31,4 @@
 - Java : Jacoco exec files
 - JS : install nyc wrapper on tests
 - Sonar Exclusions 
-
-
 
